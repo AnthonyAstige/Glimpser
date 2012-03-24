@@ -12,12 +12,18 @@ SendMode Input 				; Recommended for new scripts due to its superior speed and r
 Key = RAlt
 Browser = ahk_class Chrome_WidgetWin_0
 
+;;;;;;;;;;;;;;;;;;;;
+; Application loop ;
+;;;;;;;;;;;;;;;;;;;;
 Loop
 {
-	Glimpser(Key, Browser)
+	WaitForNextGlimpse(Key, Browser)
 }
 
-Glimpser(Key, Browser){
+;;;;;;;;;;
+; Methos ;
+;;;;;;;;;;
+WaitForNextGlimpse(Key, Browser){
 	KeyWait, %Key%, D  ; Wait for the left mouse button to be pressed down.
 	WinGet, active_id, PID, A
 	WinActivate, %Browser%
