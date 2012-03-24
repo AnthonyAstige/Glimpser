@@ -1,0 +1,20 @@
+h1. Glimpser
+
+An AutoHotKey Script to give quick visual feedback while doing web development by holding down a single key to preview.
+
+h2. Explination screencast
+
+http://screencast.com/t/KqDskktPKqqa
+
+Note: I haven't used Glimpse, so I could be mistaken in some areas, correct me if I'm wrong ;)
+
+h2. Shortcomings
+* Only works for Chrome (easily modifiable)
+* Configured to right alt (though again, easily modifiable)
+* Only tested by me (Anthony)
+
+h3. References
+Glimpse looks like an awesome development tool.  I took a piece of Glimpse and made it work more generally.  Honestly though Glimpse looks much more rhobust and pretty than what I've done - I mainly wanted soemthing now that worked well with the development enviornment I regularly use.
+
+* Inspiration: "Jeff Atwood's posting What You Can't See You Can't Get @ Mar 23, 2012":http://www.codinghorror.com/blog/2012/03/what-you-cant-see-you-cant-get.html
+* Original Glimpse project: http://www.aviz.fr/gliimpse/
