@@ -4,7 +4,7 @@ An AutoHotKey Script to give quick visual feedback while doing web development b
 
 h3. Explination screencast
 
-View at "http://screencast.com/t/KqDskktPKqqa":http://screencast.com/t/KqDskktPKqqa
+View at "http://anthonysweb.com/blog/wp-content/uploads/glimpser.swf":http://anthonysweb.com/blog/wp-content/uploads/glimpser.swf
 
 Note: I haven't used Glimpse, so I could be mistaken in some areas, correct me if I'm wrong ;)
 
